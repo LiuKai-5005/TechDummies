@@ -31,7 +31,7 @@ visited = []
 
 def neighbours(r, c):
     """Calculates the neighbours of a given cell"""
-    return [[r+1, c], [r+1, c], [r-1, c], [r, c-1],
+    return [[r+1, c], [r, c+1], [r-1, c], [r, c-1],
             [r+1, c+1], [r+1, c-1], [r-1, c-1], [r-1, c+1]]
 
 
